@@ -2,3 +2,21 @@ h1{
     color: blue;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+div.sombra1 {
+    position:relative; 
+    color:powderblue;
+    font: 50px “arial black”; }  
+
+div.sombra2 { 
+    position:absolute; 
+    top:4px;}
+
+ul#menu{
+    width: 10em;
+    margin: 0;
+    font: 15px verdana;
+    background: gray;
+    border: 1px solid yellow;
+}
+
