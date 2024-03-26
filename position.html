@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento</title>
+
+    <style>
+        #container{
+            background-color: white;
+        }
+
+        body{
+            background-color: lightskyblue;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        p{
+            width: 300px;
+
+        }
+
+        h1{
+            position: static;
+        }
+
+       
+        /* TOP, RIGHT, BOTTOM, LEFT */
+        .relative{
+            border: 3px solid red;
+            background-color: rgb(95, 175, 142);
+            position: relative;
+            right: -250px;
+            
+        }
+
+        /* O position FIXED funciona em relação a página inteira */
+        .fixed{
+            border: 3px dashed darkgrey ;
+            background-color: blanchedalmond;
+            position: fixed;
+           bottom: 0;
+           right: 0;
+           margin: 0 auto;
+       
+        }
+        
+        img{
+           height: 150px;
+        }
+
+        .absolute{
+            position: absolute;
+            left: 0px;
+           
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+
+        <h1>Posicionamento</h1>  
+
+        <p class="relative">
+            P1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repellat facere, modi a cumque nulla tempore odit architecto iste voluptatibus!
+        </p>
+
+        <p class="fixed">
+            <b>P2</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, iure impedit. Iure neque atque natus delectus quisquam perspiciatis dolor dolores.
+        </p>
+    </div>  
+    <div class="img">
+        <img src="IMG/imagem1.jpg" alt="">
+        <img src="IMG/imagem2.jpg" alt="">
+        <img src="IMG/imagem3.jpg" alt="">
+        <img src="IMG/imagem4.jpg" alt="">
+        <img src="IMG/imagem5.jpg" alt="">
+    </div>
+
+    <div class="absolute">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/nbBrea71I2U?si=rgw-9f1Z3p1-QLN5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+</body>
+</html>

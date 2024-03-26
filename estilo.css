@@ -1,0 +1,45 @@
+/* Limpar configuração do CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Área do Header */
+#container{
+    width: 100%;
+    background-color: #F95F25;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Área da Página(Body) */
+body{
+    background-color: #57D4C3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:link, a:visited{
+    color: #57D4C3;
+}
+
+a:hover{
+    background-color: white;
+    padding: 5px;
+    transition: 500ms;
+}
+
+h1{
+    color: #57D4C3;
+    padding-bottom: 10px;
+}
+span{
+    color: white;
+}
