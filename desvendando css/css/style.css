@@ -5,13 +5,36 @@
 
 h1{
     color: blue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    pa
+}
+
+ul{
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+ul li{
+    margin: 10px;
+  
+    display: inline-block;
+
+}
+
+a{
+    
+    text-decoration: none;
 }
 
 div.sombra1 {
     position:relative; 
     color:powderblue;
     font: 50px “arial black”; }  
+    margin: 10px;
 
 div.sombra2 { 
     position:absolute; 
